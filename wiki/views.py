@@ -13,7 +13,7 @@ class PageList(ListView):
     """
     model = Page
 
-    def get(self, request, username, slug):
+    def get(self, request):
         """ Returns a list of wiki pages. """
         pass
 
