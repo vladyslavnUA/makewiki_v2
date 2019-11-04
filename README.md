@@ -1,10 +1,10 @@
 # 📓 Personal Wiki
 
-View the [lesson plan](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations/#/Lessons/05-Templates) on the [BEW 1.2 Course Website](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations).
+View the [lesson plan](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations/#/Lessons/05-Templates) on the [BEW 1.2 Course Website](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations) for more information about this activity.
 
 ## Step 1: Follow Setup Guide
 
-View the [setup guide](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations/#/Lessons/05-Templates?id=setup-from-starter-code) to get started.
+Visit the [setup guide](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations/#/Lessons/05-Templates?id=setup-from-starter-code) to get started.
 
 ## Step 2: Link Repository in Tracker
 
@@ -24,7 +24,7 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 3. Solve each challenge in numerical order.
 4. To level up, try the stretch challenges!
 
-## Step 5: Level Up and Add to Portfolio
+## Step 5: Level Up
 
 ### Suggestions
 
@@ -32,6 +32,8 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 - Make the models more sophisticated.
 - What other features can you dream up? What would look good on your portfolio? Open up a discussion with your instructor to receive personalized feedback.
 
+## Step 6: Add to Portfolio
 
+Add your makewiki implementation to your Make School portfolio.
 
 
