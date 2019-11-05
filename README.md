@@ -19,21 +19,24 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 
 ## Step 4: Solve the Challenges
 
-1. Find the challenges by searching the project for instances of the word `CHALLENGE`.
-2. To **search all files in your project directory**, press `<Command>` + `<Shift>` + `<F>`, type `CHALLENGE`, and hit `<Return>`.
-3. Solve each challenge in numerical order.
-4. To level up, try the stretch challenges!
+1. **REQUIRED**: Complete challenges in each of these files, in order:
+    1. `makewiki/urls.py`
+    1. `wiki/views.py`
+    1. `wiki/urls.py`
+    1. `templates/base.html`
+1. **OPTIONAL**: Move on to the stretch challenges in any file to level up!
+
+**TIP**: Find all challenges by searching the project for instances of the word `CHALLENGE`. To **search all files in your project directory**, press `<Command>` + `<Shift>` + `<F>`, type `CHALLENGE`, and hit `<Return>`.
 
 ## Step 5: Level Up
 
 ### Suggestions
 
+- Create a beautiful user interface for your wiki. Bootstrap is included with this starter pack!
 - Customize the project and continue to experiment with the codebase.
 - Make the models more sophisticated.
 - What other features can you dream up? What would look good on your portfolio? Open up a discussion with your instructor to receive personalized feedback.
 
 ## Step 6: Add to Portfolio
 
-Add your makewiki implementation to your Make School portfolio.
-
-
+Add your `makewiki` implementation to your [Make School portfolio](https://www.makeschool.com/portfolio).
