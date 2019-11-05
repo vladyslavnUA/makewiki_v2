@@ -26,6 +26,8 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 
 ## Step 3: CRUD Page Instances (Admin Interface)
 
+**TIP**: Add real world data from 5 random Wikipedia articles using http://wikiroulette.co/.
+
 1. In your terminal, run `python manage.py runserver`.
 2. Visit `http://127.0.0.1:8000/admin/` in your browser.
 3. Enter `admin` for the username and `djangopony` for the password.
@@ -38,7 +40,7 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
     1. `wiki/views.py`
     1. `wiki/urls.py`
     1. `templates/base.html`
-1. **OPTIONAL**: Move on to the stretch challenges in any file to level up!
+2. **OPTIONAL**: Move on to the stretch challenges in the code, or enhance the project using the suggestions below.
 
 **TIP**: Find all challenges by searching the project for instances of the word `CHALLENGE`. To **search all files in your project directory**, press `<Command>` + `<Shift>` + `<F>`, type `CHALLENGE`, and hit `<Return>`.
 
@@ -46,7 +48,7 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 
 ### Suggestions
 
-- Create a beautiful user interface for your wiki. Bootstrap is included with this starter pack!
+- Create a beautiful user interface for your wiki. [Bootstrap 4](https://getbootstrap.com/docs/4.0/components/) is included with this starter pack! Bootstrap 4 is included with the project.
 - Customize the project and continue to experiment with the codebase.
 - Make the models more sophisticated.
 - What other features can you dream up? What would look good on your portfolio? Open up a discussion with your instructor to receive personalized feedback.
