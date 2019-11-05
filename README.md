@@ -4,7 +4,21 @@ View the [lesson plan](https://make-school-courses.github.io/BEW-1.2-Authenticat
 
 ## Step 1: Follow Setup Guide
 
-Visit the [setup guide](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations/#/Lessons/05-Templates?id=setup-from-starter-code) to get started.
+ **⭐️ IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br>**✅ EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
+
+1. **In your browser**, create a **[new public repository](https://github.com/new)** on GitHub called `makewiki`.
+2. **In your terminal**, navigate to the directory where you store your projects.
+3. **Paste each line below** into the terminal, *one by one*. **Hit `<Return>` after *each* line**:
+
+    ```bash
+    git clone https://github.com/make-school-labs/makewiki-starter makewiki
+    cd makewiki
+    rm -rf .git
+    git init
+    git remote add origin https://github.com/YOUR_GITHUB_USERNAME/makewiki
+    ```
+
+4. **Open the `makewiki` repository folder** in your IDE.
 
 ## Step 2: Link Repository in Tracker
 
