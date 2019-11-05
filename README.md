@@ -1,6 +1,6 @@
 # 📓 Personal Wiki
 
-View the [lesson plan](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations/#/Lessons/05-Templates) on the [BEW 1.2 Course Website](https://make-school-courses.github.io/BEW-1.2-Authentication-and-Associations) for more information about this activity.
+View the [lesson plan] that accompanies this activity.
 
 ## Step 1: Follow Setup Guide
 
@@ -26,12 +26,11 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 
 ## Step 3: CRUD Page Instances (Admin Interface)
 
-**TIP**: Add real world data from 5 random Wikipedia articles using http://wikiroulette.co/.
-
 1. In your terminal, run `python manage.py runserver`.
 2. Visit `http://127.0.0.1:8000/admin/` in your browser.
 3. Enter `admin` for the username and `djangopony` for the password.
 4. Click `Pages` on the left, underneath `Users` and `Groups`.
+5. Add real world data from 5 random Wikipedia articles using http://wikiroulette.co/.
 
 ## Step 4: Solve the Challenges
 
@@ -48,7 +47,7 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 
 ### Suggestions
 
-- Create a beautiful user interface for your wiki. [Bootstrap 4](https://getbootstrap.com/docs/4.0/components/) is included with this starter pack! Bootstrap 4 is included with the project.
+- Create a beautiful user interface for your wiki. [Bootstrap 4](https://getbootstrap.com/docs/4.0/components/) is included with this starter pack! 
 - Customize the project and continue to experiment with the codebase.
 - Make the models more sophisticated.
 - What other features can you dream up? What would look good on your portfolio? Open up a discussion with your instructor to receive personalized feedback.
