@@ -34,6 +34,8 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 
 ## Step 4: Solve the Challenges
 
+**NOTE**: Complete the challenges in all files before moving on to stretch challenges. Your grade is dependent on the completion of the challenges only.
+
 1. **REQUIRED**: Complete challenges in each of these files, in order:
     1. `makewiki/urls.py`
     1. `wiki/views.py`
