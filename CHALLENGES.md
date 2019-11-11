@@ -1,6 +1,11 @@
 # MakeWiki Challenges
 
-## 2️⃣  Authentication & Authorization
+### Table of Contents
+
+1. [Authentication & Authorization](#authentication--authorization)
+2. [Core Application](#core-application)
+
+## Authentication & Authorization
 
 ### Login & Logout
 
@@ -28,7 +33,7 @@
 
 ---
 
-## v1: Core Application
+## Core Application
 
 ### Challenges
 
