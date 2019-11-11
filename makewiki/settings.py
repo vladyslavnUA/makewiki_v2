@@ -129,3 +129,20 @@ STATIC_URL = '/static/'
 
 # wiki app settings
 WIKI_PAGE_TITLE_MAX_LENGTH = 600
+
+
+# Where to redirect during authentication
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
+
+# Required for Heroku
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+
+# PROTIP:
+# Need to override settings? Create a local_settings.py file
+# in this directory, and add settings there.
+try:
+    from makewiki.local_settings import *
+except ImportError:
+    pass
