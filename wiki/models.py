@@ -25,19 +25,13 @@ class Page(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        """ Returns a fully-qualified path for a page (/droxey/my-new-wiki-page). """
-        path_components = {'username': self.username, 'slug': self.slug}
-        return reverse('wiki-page', kwargs=path_components)
+        """ Returns a fully-qualified path for a page (/my-new-wiki-page). """
+        path_components = {'slug': self.slug}
+        return reverse('wiki-details-page', kwargs=path_components)
 
     def save(self, *args, **kwargs):
         """ Creates a URL safe slug automatically when a new a page is created. """
-
-        # STRETCH CHALLENGES:
-        #   1. Add time zone support for `created` and `modified` dates if you're receiving the warning below:
-        #       RuntimeWarning: DateTimeField received a naive datetime (YYYY-MM-DD HH:MM:SS)
-        #       while time zone support is active.
-        #   2. Add the ability to update the slug when the Page is edited.
-        if not self.pk:  # To detect new objects, check if self.pk exists.
+        if not self.pk:
             self.slug = slugify(self.title, allow_unicode=True)
 
         # Call save on the superclass.
