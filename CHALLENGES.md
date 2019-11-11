@@ -7,9 +7,9 @@
 - [ ] Add the provided Django authentication views to the project's URLconf.
 - [ ] Test `/accounts/login` in your browser --- see if you can log in using username `admin` and password `djangopony`.
 - [ ] In `base.html`, hide the `New Page` and `Log Out` buttons for unauthenticated users.
-- [ ] In `base.html`, hide the `Log In` and `Sign Up` buttons for authenticated users.
 - [ ] When a user clicks `Log Out`, they are logged out of the system, and returned to the homepage.
 - [ ] When a user clicks `Log In`, they are navigated to the Login page.
+- [ ] Replace `Hello, USERNAME` text with the username of the logged-in user, and only show it when the user is logged in.
 
 ### Signup
 
