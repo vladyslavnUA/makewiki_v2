@@ -16,6 +16,7 @@ Including another URLconf
 # from app import Home
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 
 """
 CHALLENGES:
@@ -26,7 +27,12 @@ CHALLENGES:
 urlpatterns = [
     # Admin Site
     path('admin/', admin.site.urls),
-    # path('accounts/login', include('templates/registration/login'))
+    path('accounts/login', include('templates/registration/login')),
     # Wiki App
-    # path('', include('wiki.urls')),
+    path('', include('wiki.urls')),
+    path('<int:pk>/', views.DetailView.as_view(), name='detail'),
+    path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
+    path('<int:question_id>/vote/', views.DetailView.as_view(), name='detail'),
+    path('form/', views.DetailView.as_view(), name='form'),
+    path('new/', views.DetailView.as_view(), name='new form'),
 ]
